@@ -1,0 +1,220 @@
+<meta charset="UTF-8"/>
+<meta name="theme-color" content="#0056B3"/>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+<style>
+  .containerb {
+  width: 100%;
+  max-width: 1920px;
+  margin: 0 auto;
+  
+  margin-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  overflow-x: hidden; /* Oculta el desbordamiento horizontal */
+  overflow-y: auto; /* Permite desplazamiento vertical si es necesario */
+}
+  .rowb {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .columnb {
+    padding: 8px;
+    box-sizing: border-box;
+  }
+  .large {
+    flex: 50%;
+  }
+  .medium {
+    flex: 25%;
+  }
+  .small {
+    flex: 25%;
+  }
+  .banner-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 4px;
+  }
+  
+  .grid-containerb {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+    gap: 10px;
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  .grid-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+
+  .grid-item img {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+  }
+
+  .fila1 {
+    grid-column: span 2; /* Ocupa 2 columnas */
+  }
+
+  .fila2 {
+    grid-column: span 3; /* Ocupa 3 columnas */
+  }
+
+  .fila2-sec {
+    grid-column: span 1; /* Ocupa 1 columna */
+  }
+
+  .fila3 {
+    grid-column: span 1; /* Cada imagen en la tercera fila ocupa 1 columna */
+  }
+
+  /* Estilos adicionales para links y texto */
+  .info {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 8px;
+    background: rgba(0,0,0,0.5);
+  }
+
+  .info a {
+    color: #00BFFF;
+    text-decoration: none;
+  }
+.columnb.small {
+  flex: 25%; /* Ajusta al tamaño de un cuarto del contenedor */
+}
+
+.columnb.large {
+  flex: 50%; /* Ajusta al tamaño de la mitad del contenedor */
+  /* Asegúrate de que las imágenes grandes no excedan su contenedor */
+  max-width: 100%;
+  height: auto;
+}
+
+.grid-containerb {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+  gap: 10px;
+  margin: 20px 0; /* Agrega un poco de espacio arriba y abajo de la cuadrícula */
+}
+
+/* Asegúrate de que los elementos de la cuadrícula no se desborden y tengan espacios consistentes */
+.grid-item {
+  margin: 10px;
+  border-radius: 8px; /* Borde redondeado para las imágenes */
+}
+
+/* Puedes ajustar la clase .info según sea necesario */
+.info {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  color: white;
+  background: rgba(0, 86, 179, 0.8); /* Ajusta la opacidad y el color para mejorar la legibilidad */
+  padding: 5px 10px;
+  border-radius: 8px;
+  z-index: 10; /* Asegúrate de que el texto esté por encima de la imagen */
+}
+
+/* Si necesitas responsividad, considera usar media queries para ajustar el diseño en diferentes tamaños de pantalla */
+@media (max-width: 768px) {
+  .grid-containerb {
+    grid-template-columns: repeat(2, 1fr); /* Cambia a 2 columnas en pantallas más pequeñas */
+  }
+  .columnb.small, .columnb.large {
+    flex: 100%; /* Los banners ocuparán todo el ancho en pantallas pequeñas */
+  }
+}
+@media (max-width: 992px){
+.containerb{display:none!important;}
+}
+
+</style>
+
+
+
+<div class="containerb" style="margin-top: 1px;">
+  <!-- Primera fila -->
+  <div class="rowb" style=" margin-right: 1px; margin-left: -7px; margin-top: 147px;">
+    <div class="columnb small">
+      <a href="https://www.comandato.com/televisor-tcl-p755-4k-google-tv-55--55p755/p?sc=1">
+      <img class="banner-img" src="https://raw.githubusercontent.com/webcomandato/subir/refs/heads/main/baner1-es.jpg" alt="Televisores"/>
+      </a>
+      <div >
+      <a href="https://www.comandato.com/refrigeradora-whirlpool-wrj45aktww/p?sc=1">
+      <img class="banner-img" src="https://raw.githubusercontent.com/webcomandato/subir/refs/heads/main/baner2-es.jpg" alt="Televisores" style="margin: 15px 0;"/>
+      </a>
+    </div>
+    </div>
+    <div class="columnb large">
+      <a href="https://www.comandato.com/593?map=productClusterIds&amp;page=1">
+      <img class="banner-img" src="https://raw.githubusercontent.com/webcomandato/subir/refs/heads/main/baner3-es.jpg" alt="Lavado y Secado"/>
+      </a>
+      
+      
+
+   <div class="grid-containerb">
+ <div class="grid-item fila1" style="margin: 0;">
+    <a href="https://www.comandato.com/celular-iphone-16-black-128gb-5g-nano-sim---esim-/p?sc=1"> 
+    <img class="banner-img" src="https://raw.githubusercontent.com/webcomandato/subir/refs/heads/main/baner4-es.jpg" alt="12 meses sin intereses"/>
+    </a>
+    
+  </div>
+  <div class="grid-item fila1" style="margin: 0;">
+    <a href="https://www.comandato.com/593?map=productClusterIds&amp;page=1">
+    <img class="banner-img" src="https://raw.githubusercontent.com/webcomandato/subir/refs/heads/main/baner5-es.jpg" alt="Honor"/>
+    </a>
+  </div>
+  
+  </div>
+
+    </div>
+
+   
+  <div class="columnb small">
+    <div class="columnb small" style="width: 105.5%;">
+      <a href="https://www.comandato.com/watson?sc=1">
+      <img class="banner-img" src="https://raw.githubusercontent.com/webcomandato/subir/refs/heads/main/baner6-es.jpg" alt="Televisores" style="margin: -8px 0;"/>
+      </a>
+      <a href="https://www.comandato.com/split-tcl-tac-12csaz2-alta-eficiencia/p?sc=1">
+      <img class="banner-img" src="https://raw.githubusercontent.com/webcomandato/subir/refs/heads/main/baner7-es.jpg" alt="Televisores" style="margin: 20px 0;" />
+      </a>
+      <a href="https://www.comandato.com/lavadora-automatica-mabe-direct-drive-diamond-gray-19kg-lme9120wdgab01/p?sc=1">
+      <img class="banner-img" src="https://raw.githubusercontent.com/webcomandato/subir/refs/heads/main/baner8-es.jpg" alt="Televisores"/>
+      </a>
+       
+
+    </div>
+
+    <!-- <div class="grid-containerb">
+      
+      
+      <div class="grid-item fila2">
+        <img src="https://site.comandato.com/banner-home/Recurso 7@4x.png" alt="Lavado y Secado"/>
+        <div class="info">Lavado y Secado - ver todos</div>
+      </div>
+      <div class="grid-item fila2">
+        <img src="https://site.comandato.com/banner-home/Recurso 8@4x.png" alt="Lavado y Secado"/>
+        <div class="info">Lavado y Secado - ver todos</div>
+      </div>
+      <div class="grid-item fila2">
+        <img src="https://site.comandato.com/banner-home/Recurso 9@4x.png" alt="Otro Producto"/>
+        <div class="info">Otro Producto - ver todos</div>
+      </div>
+  
+    </div> -->
+  </div>
+
+    
+  </div>
+</div>
